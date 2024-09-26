@@ -1,3 +1,4 @@
+# Care Companion AI
 # Medical Application: Disease Prediction and Medical Chatbot
 https://www.kaggle.com/code/vizeno/pneumonia-image-classification-cnn-gradcam - Pneumonia Model File
 ## Overview
