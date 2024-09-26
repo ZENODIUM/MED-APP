@@ -1,5 +1,5 @@
 # Medical Application: Disease Prediction and Medical Chatbot
-
+https://www.kaggle.com/code/vizeno/pneumonia-image-classification-cnn-gradcam - Pneumonia Model File
 ## Overview
 This repository contains a comprehensive medical application designed to predict various diseases and provide interactive medical assistance using a chatbot powered by GPT-2. The application features:
 
