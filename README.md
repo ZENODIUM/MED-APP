@@ -89,3 +89,58 @@ medical-application/
 ├── requirements.txt        # Required packages for the project
 └── README.md               # Project documentation
 ```
+
+## Usage Guide
+
+### 1. Disease Prediction
+- **Upload Data**: Navigate to the `Disease Prediction` section and upload your CSV file.
+- **Select Disease**: Choose the disease model (e.g., Heart Disease, Diabetes).
+- **Get Predictions**: Click `Predict` to view the results.
+
+### 2. Chatbot Assistance
+- Navigate to the `Medical Chatbot` section.
+- Type your query in the text box.
+- Press `Enter` to receive a response from the GPT-2 chatbot.
+
+### Model Training
+To retrain the models, follow these steps:
+
+1. **Prepare the Dataset**: Place your dataset in the `data/` folder.
+2. **Modify the Script**: Update the corresponding script in the `disease_prediction/` folder.
+3. **Train and Save the Model**:
+
+    ```bash
+    python disease_prediction/heart_disease.py
+    ```
+
+    The newly trained model will be saved in the `models/` directory.
+
+## Contribution
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Add new feature"
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+
